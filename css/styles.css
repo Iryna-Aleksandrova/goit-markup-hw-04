@@ -549,16 +549,16 @@ address {
   margin-bottom: 16px;
 }
 
-.social-links {
+.footer-social-links {
   gap: 16px;
 }
 
-.social-links-li {
+.footer-social-links-li {
   display: flex;
   gap: 16px;
 }
 
-.social-ref {
+.footer-social-ref {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -566,7 +566,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .social-ref:hover,
-.footer .social-ref:focus {
+.footer .footer-social-ref:hover,
+.footer .footer-social-ref:focus {
   background-color: #31d0aa;
 }
