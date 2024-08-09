@@ -491,7 +491,6 @@ address {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  height: 312px;
 }
 
 .footer-container {
@@ -501,8 +500,6 @@ address {
 }
 
 .footer-first {
-  width: 264px;
-  height: 112px;
   margin-right: 120px;
 }
 
@@ -523,7 +520,7 @@ address {
 }
 
 .footer-text {
-  display: block;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -533,8 +530,6 @@ address {
 }
 
 .footer-second {
-  width: 208px;
-  height: 80px;
   padding-bottom: 132px;
 }
 
@@ -542,7 +537,6 @@ address {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
@@ -550,23 +544,31 @@ address {
 }
 
 .footer-social-links {
-  gap: 16px;
-}
-
-.footer-social-links-li {
   display: flex;
   gap: 16px;
 }
 
-.footer-social-ref {
+.footer-social-links-li {
   width: 40px;
   height: 40px;
+}
+
+.footer-social-ref {
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-social-ref:hover,
-.footer .footer-social-ref:focus {
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+
+.footer-social-ref:hover,
+.footer-social-ref:focus {
   background-color: #31d0aa;
 }
