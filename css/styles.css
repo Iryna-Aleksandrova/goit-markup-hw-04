@@ -496,7 +496,6 @@ address {
 .footer-container {
   display: flex;
   align-items: baseline;
-  max-width: 1440px;
 }
 
 .footer-first {
@@ -527,10 +526,6 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.footer-second {
-  padding-bottom: 132px;
 }
 
 .footer-text-links {
